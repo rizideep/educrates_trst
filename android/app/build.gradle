@@ -32,7 +32,7 @@ def keystoreProperties = new Properties()
 
 android {
     namespace "com.educrates.thrstf.dev"
-    compileSdk flutter.compileSdkVersion
+    compileSdk 35
     ndkVersion = "25.1.8937393"
 
 
@@ -57,7 +57,7 @@ android {
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion 23
-        targetSdkVersion 34
+        targetSdkVersion 35
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
