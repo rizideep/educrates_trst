@@ -37,10 +37,10 @@ Future<void> initializeApp() async {
   HttpOverrides.global = MyHttpOverrides();
   //Register the licence of font
   //If using google-fonts
-  LicenseRegistry.addLicense(() async* {
+  /*LicenseRegistry.addLicense(() async* {
     final license = await rootBundle.loadString('google_fonts/OFL.txt');
     yield LicenseEntryWithLineBreaks(['google_fonts'], license);
-  });
+  });*/
 
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
