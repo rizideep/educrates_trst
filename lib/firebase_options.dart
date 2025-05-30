@@ -50,19 +50,37 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCpb7FV7ftE4RUASyGgoQVoi4I_AAcntcc',
+    apiKey: 'KJFKJD',
+    appId: '89349543953JKDFDKU84U',
+    messagingSenderId: '9498438IDJFDUFI',
+    projectId: 'FFDS',
+    storageBucket: 'FDSFDSFDSF',
+
+
+    /*apiKey: 'AIzaSyCpb7FV7ftE4RUASyGgoQVoi4I_AAcntcc',
     appId: '1:539033120705:android:a1b82fa3121c43a2d8c940',
     messagingSenderId: '539033120705',
     projectId: 'e-school-saas',
-    storageBucket: 'e-school-saas.appspot.com',
+    storageBucket: 'e-school-saas.appspot.com',*/
+
+
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDGi2fMwfpdcA5jTbB6b97n8EoL_Ag9-2M',
+    apiKey: 'KJDSKFDSJ-2M',
+    appId: 'FDSLKFDSLF',
+    messagingSenderId: '43646FTDSFET',
+    projectId: 'FDSFDSF',
+    storageBucket: 'DFDSFSF',
+    iosBundleId: 'DFDSFDSF',
+
+    /*apiKey: 'AIzaSyDGi2fMwfpdcA5jTbB6b97n8EoL_Ag9-2M',
     appId: '1:539033120705:ios:c20d96f12c47349cd8c940',
     messagingSenderId: '539033120705',
     projectId: 'e-school-saas',
     storageBucket: 'e-school-saas.appspot.com',
     iosBundleId: 'com.educrates.thrstf.dev',
+    */
+
   );
 }

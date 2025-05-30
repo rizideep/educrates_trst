@@ -49,9 +49,7 @@ Future<void> initializeApp() async {
 
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   await AppTranslation.loadJsons();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  await Firebase.initializeApp();
 
   await Hive.initFlutter();
   await Hive.openBox(authBoxKey);
