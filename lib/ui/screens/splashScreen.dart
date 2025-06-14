@@ -39,7 +39,7 @@ class _SplashScreenState extends State<SplashScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.primary,
+     // backgroundColor: Theme.of(context).colorScheme.primary,
       body: BlocConsumer<AppConfigurationCubit, AppConfigurationState>(
         listener: (context, state) {
           if (state is AppConfigurationFetchSuccess) {
