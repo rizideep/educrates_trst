@@ -34,13 +34,13 @@ class _LoginScreenState extends State<LoginScreen> {
   var canPop = false;
 
   late final _schoolCodeController =
-      TextEditingController(text: defaultSchoolCode);
+      TextEditingController( );
 
   late final TextEditingController _emailTextEditingController =
-      TextEditingController(text: defaultEmail);
+      TextEditingController( );
 
   late final TextEditingController _passwordTextEditingController =
-      TextEditingController(text: defaultPassword);
+      TextEditingController( );
 
   @override
   void dispose() {
