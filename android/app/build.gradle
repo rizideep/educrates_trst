@@ -31,7 +31,7 @@ def keystoreProperties = new Properties()
 
 
 android {
-    namespace "com.educrates.thrstf.dev"
+    namespace "com.educrates.teacher"
     compileSdk 35
     ndkVersion = "25.1.8937393"
 
@@ -53,11 +53,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.educrates.thrstf.dev"
+        applicationId "com.educrates.teacher"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion 23
-        targetSdkVersion 34
+        targetSdkVersion 35
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
@@ -78,6 +78,10 @@ android {
             // Signing with the debug keys for now, so `flutter run --release` works.
         //    signingConfig signingConfigs.debug
         signingConfig signingConfigs.release
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
         }
     }
 }
@@ -87,6 +91,8 @@ flutter {
 }
 
 dependencies {
+    implementation 'androidx.window:window:1.0.0'
+    implementation 'androidx.window:window-java:1.0.0'
     implementation 'androidx.multidex:multidex:2.0.1'
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.2.2'
     implementation(platform("com.google.firebase:firebase-bom:33.13.0"))

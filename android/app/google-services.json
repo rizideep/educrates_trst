@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "4066199945",
-    "project_id": "educratesthrstf",
-    "storage_bucket": "educratesthrstf.firebasestorage.app"
+    "project_number": "543311985561",
+    "project_id": "educrates-teacher",
+    "storage_bucket": "educrates-teacher.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:4066199945:android:b07224e5279e63d5ae7958",
+        "mobilesdk_app_id": "1:543311985561:android:68f0381c6110cd6c08b108",
         "android_client_info": {
-          "package_name": "com.educrates.thrstf.dev"
+          "package_name": "com.educrates.teacher"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDiXa6A-Mo1YykwnCbS_lfMSf8krw_wqXo"
+          "current_key": "AIzaSyCGqbSZhrC9AGoab7vI1B6tObDYbYcutvQ"
         }
       ],
       "services": {

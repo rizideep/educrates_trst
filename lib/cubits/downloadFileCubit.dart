@@ -3,7 +3,8 @@ import 'package:dio/dio.dart';
 import 'package:eschool_saas_staff/data/models/studyMaterial.dart';
 import 'package:eschool_saas_staff/data/repositories/studyMaterialRepository.dart';
 import 'package:eschool_saas_staff/utils/labelKeys.dart';
-import 'package:external_path/external_path.dart';
+import 'package:external_path/external_path.dart' show ExternalPath;
+
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 // ignore: depend_on_referenced_packages
@@ -91,7 +92,7 @@ class DownloadFileCubit extends Cubit<DownloadFileState> {
         //download file
         String downloadFilePath = Platform.isAndroid && isPermissionGranted
             ? (await ExternalPath.getExternalStoragePublicDirectory(
-                ExternalPath.DIRECTORY_DOWNLOADS,
+                ExternalPath.DIRECTORY_DOWNLOAD,
               ))
             : (await getApplicationDocumentsDirectory()).path;
 

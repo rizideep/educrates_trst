@@ -54,18 +54,18 @@ dependencies:
   url_launcher:
   intl:
   timeago:
-  file_picker: ^8.1.4
+  file_picker: ^9.1.4
   permission_handler:
   device_info_plus:
   path_provider: ^2.1.1
   readmore:
   responsive_builder:
-  open_filex: 
+  open_filex: ^4.7.0
   external_path:
   shared_preferences: 
   package_info_plus:
   web_socket_channel: ^3.0.1
-  image_picker: ^1.1.2
+  image_picker: ^1.2.0
   bloc: any
   
   

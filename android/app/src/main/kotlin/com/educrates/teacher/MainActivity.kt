@@ -1,4 +1,4 @@
-package com.educrates.thrstf.dev
+package com.educrates.teacher
 
 import io.flutter.embedding.android.FlutterActivity
 
